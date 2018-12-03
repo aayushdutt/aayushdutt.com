@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Tenso W00 Regular";
+    src: url("fonts/aae4564cc3a1c1a473938965050d0ca4.woff") format("woff"); /* chrome、firefox */
+    font-display: swap;
+}
+
 body,
 html {
     width: 100%;
@@ -6,9 +12,10 @@ html {
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
-    font-family: 'tenso', sans-serif;
+    font-family: 'Tenso W00 Regular';
     font-weight: 400
 }
+
 
 .content a,
 body {
@@ -171,7 +178,7 @@ body {
 .avatar {
     width: 128px;
     height: 128px;
-    background: url(../images/avatar.jpg);
+    background: url(../images/avatar-min.jpg);
     background-size: cover;
     border-radius: 50%;
     background-color: #161c22;

@@ -6,19 +6,44 @@
     <meta http-equiv=X-UA-Compatible content="IE=edge">
     <meta name=theme-color content=#ffffff>
     <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name=description content="Hi, I'm Aayush. I'm a Fullstack Developer and a CS student at IIT Dhanbad ">
     <title>Aayush Dutt</title>
     <meta name=mobile-web-app-capable content=yes>
+
     <!-- Favicon -->
-    <link rel=icon sizes=192x192 href=images/AaG2.png>
-    <meta name=apple-mobile-web-app-capable content=yes>
+    <link rel=icon sizes=192x192 href=images/AaG2.png> <meta name=apple-mobile-web-app-capable content=yes>
+    
+    <!-- SEO -->
+    <link rel=author href=https://plus.google.com/115912244191143742118>
+    <meta name=description content="Hi, I'm Aayush. I'm a Fullstack Developer and a CS student at IIT Dhanbad ">
+    <meta name="keywords" content="aayush, Aayush Dutt, dutt, node, node.js, react, react.js, nodejs, javascript, aayush dutt twitter, iit, iit ism, developer, ism, aayush dutt quora, aayush dutt india, aayush dutt linkedin, cyber labs, oss, indian institute of technology, indian school of mines, technology, full stack developer" />
+    <meta name="author" content="Aayush Dutt" />
+    <meta property="og:url" content="https://www.aayushdutt.com">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/avatar-min.jpg" />
+    <meta property="og:image:width" content="250" />
+    <meta property="og:image:height" content="250" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta http-equiv="expires" content="Monday, 01 August 2020, 00:00:00 GMT" />
+    <meta name="theme-color" content="#161c22" />
     <meta name=apple-mobile-web-app-status-bar-style content=black>
     <meta name=apple-mobile-web-app-title content="Aayush Dutt">
-    <link rel=apple-touch-icon-precomposed href=apple-touch-icon-precomposed.png>
-    <link rel=author href=https://plus.google.com/115912244191143742118>
+    <!-- <link rel=apple-touch-icon-precomposed href=apple-touch-icon-precomposed.png> -->
+    
     <!-- Styles -->
     <link rel=stylesheet href=/styles/landing.css> 
-    <script src=https://use.typekit.net/kpt3ulr.js> </script> <script>try{Typekit.load(/*{ async: true }*/);}catch(e){}</script>
+    <script>
+        if (window.navigator && navigator.serviceWorker) {
+            navigator.serviceWorker.getRegistrations()
+                .then(function (registrations) {
+                    for (let registration of registrations) {
+                        registration.unregister();
+                    }
+                });
+        }
+    </script>
+    
+    //prerender portfolio
+    <link rel="prerender" href="https://portfolio.aayushdutt.com/">
 </head>
 
 <body>
@@ -28,21 +53,21 @@
             <div class=avatar></div>
             <p>Hi, I’m Aayush.</p>
             <p>
-                I’m a Fullstack Developer and a Computer Science student at <a class="override" href=https://www.iitism.ac.in>IIT Dhanbad</a>.
-            </p>
+                I’m a Fullstack Developer and a Computer Science student at <a class="override" href=https://www.iitism.ac.in>IIT
+                Dhanbad</a>. 
+            </p> 
             <p>
                 I &#x2661; building stuff, and &#x2661; it even more if Node or React is involved.
-                <br>
+                <br />
                 See more in my <a rel=me class="outline" href="https://portfolio.aayushdutt.com/">portfolio</a>
             </p>
             <div class=icons>
-                <a rel=me target=_blank href=https://twitter.com/aayushdutt title=Twitter class=twitter></a> 
+                <a rel=me target=_blank href=https://twitter.com/aayushdutt title=Twitter class=twitter></a>
                 <a rel=me target=_blank href=https://github.com/aayushdutt title=GitHub class=github></a>
                 <a rel=me target=_blank href=https://medium.com/@aayushdutt title=Medium class=medium></a>
                 <a rel=me target=_blank href=https://quora.com/profile/Aayush-Dutt-1 title=Quroa class=quora></a>
                 <a rel=me title=Email class="email" href="mailto:aayushd100@gmail.com"></a>
             </div>
-
         </div>
     </div>
     <div class=bottom></div>
