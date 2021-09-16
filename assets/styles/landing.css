@@ -245,7 +245,7 @@ body {
 }
 
 .icons .twitter::after {
-  background-image: url(../images/icon_twitter.svg);
+  background-image: url(../images/icon_tw.svg);
 }
 
 .icons .quora::after {
@@ -257,7 +257,7 @@ body {
 }
 
 .icons .linkedin::after {
-  background-image: url(../images/icon_linkedin.svg);
+  background-image: url(../images/icon_li.svg);
 }
 
 .icons .medium::after {
