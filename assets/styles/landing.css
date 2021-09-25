@@ -107,7 +107,9 @@ body {
 }
 
 .content a.override {
-  font-weight: 500;
+  font-weight: unset;
+  text-decoration: underline;
+  color: unset;
 }
 
 .content a.outline {
@@ -163,7 +165,7 @@ body {
 }
 
 .content p {
-  width: 256px;
+  width: 300px;
   text-align: center;
   margin: 16px auto;
 }
